@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scr/css/style.css"> 
+    <link rel="stylesheet" href="./scr/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Finalização</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="flex-box">
+                <a href="./index.html" class="logo">
+                    <img src="./scr/img/Ativo1@2x1.png" alt="Logo Festival">
+                </a>
+    
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="./index.html#Sobre" class="btn outline">
+                                Sobre
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="./Carrinho.html" class="btn outline">
+                    Quero o meu ingresso
+                    </a>
+                    <button class="btn">
+                    <img src="./scr/img/Vector.png" alt="Modo Noturno" onclick="modeColor()">
+                    </button>
+                </nav>   
+            </div>
+        </div>
+    </header>
+
+    <section id="Finalizacao">
+        <div class="container">
+            <div class="flex-box">
+                <h1 class="title two">Compra realizada com sucesso</h1>
+
+                <div class="ingresso">
+
+                    <h2 class="title two" id="nomeComprador">João do pé de feijao</h2>
+                    <p class="title three" id="emailComprador">jpf@gmail.com</p>
+
+                    <div class="qtd-box">
+                        <p class="title threehalf"> 
+                            <span class="azulclaro-text" id="ticketComprado">0</span> 
+                            ingressos comprados
+                        </p>                        
+                    </div>
+                    <img src="./scr/img/Ativo2@2x1.png" alt="Pato Compra Fim">
+                </div>
+                <a href="./index.html" class="btn outline">Retornar para o Inicio</a>  
+            </div>
+        </div>
+    </section>
+    
+</body>
+<script src="./scr/js/ingresso.js"></script>
+<script src="./scr/js/mode-script.js"></script>
+</html>
